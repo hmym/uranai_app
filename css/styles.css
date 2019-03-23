@@ -5,9 +5,9 @@ body {
 #btn {
   width: 200px;
   height: 200px;
-  background: #cecece;
+  background: #74992e;
   border-radius: 50%;
-  margin: 30px auto 0;
+  margin: 20px auto 0;
   text-align: center;
   line-height: 200px;
   color: #fff;
@@ -16,10 +16,15 @@ body {
   cursor: pointer;
   box-shadow: 0 10px 0 #cece5e;
   user-select: none;
+  /* vertical-align: middle;
+  overflow: hidden; */
+  border: dashed 2px #fff;
+  /* transition: .4s; */
 }
 
 #btn:hover {
   opacity: 0.9;
+  /* box-shadow: 0 0 0 5px #668ad8; */
 }
 
 #btn.pressed {
@@ -38,4 +43,10 @@ body {
   color: orange;
   margin-top: 20px;
   font-size: 20px;
+}
+
+#canvas {
+  background-color: black;
+  width: 100%;
+  height: 3px;
 }
