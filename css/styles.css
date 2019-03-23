@@ -13,4 +13,9 @@ body {
   color: #fff;
   font-size: 50px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+#btn:hover {
+  opacity: 0.9;
 }
