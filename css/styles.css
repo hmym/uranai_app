@@ -5,7 +5,7 @@ body {
 #btn {
   width: 200px;
   height: 200px;
-  background: #ef454a;
+  background: #cecece;
   border-radius: 50%;
   margin: 30px auto 0;
   text-align: center;
@@ -14,7 +14,7 @@ body {
   font-size: 50px;
   font-weight: bold;
   cursor: pointer;
-  box-shadow: 0 10px 0 #d1483e;
+  box-shadow: 0 10px 0 #cece5e;
   user-select: none;
 }
 
@@ -25,4 +25,17 @@ body {
 #btn.pressed {
   box-shadow: 0 5px 0 #d1483e;
   margin-top: 35px;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#msg {
+  text-align: center;
+  color: orange;
+  margin-top: 20px;
+  font-size: 20px;
 }
