@@ -14,8 +14,15 @@ body {
   font-size: 50px;
   font-weight: bold;
   cursor: pointer;
+  box-shadow: 0 10px 0 #d1483e;
+  user-select: none;
 }
 
 #btn:hover {
   opacity: 0.9;
+}
+
+#btn.pressed {
+  box-shadow: 0 5px 0 #d1483e;
+  margin-top: 35px;
 }
